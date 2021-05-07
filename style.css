@@ -1,0 +1,113 @@
+:root{
+    --brightorange: #e38826;
+    --darkcyan: #006970;
+    --verydarkcyan: #004241;
+    --transparentwhite: #ffffffbf; 
+    --verylightgray: hsl(0, 0%, 95%);    
+    --cornsilk:#fff8dc;
+ }
+
+
+.container {
+    display: flex;
+    border: 1px solid lightgray;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: var(--verylightgray);
+    margin-top: 70px;
+}
+
+#grid-container { 
+    width: 60vw;   
+    height: 45vh;
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template: 
+        "left  center right"  200px
+        "left  center right"   auto
+        / [col-start] 3fr   [col-2]  3fr  [col-3]  3fr [col-end]  3fr
+        ;
+    }
+
+    .box-left {
+        background-color: var(--brightorange);
+        grid-area: left;
+        color: var(--verylightgray);
+        padding: 30px;
+        font-size: 15px;
+        text-align: left;
+        
+    }
+
+    .box-center {
+        background-color: var(--darkcyan);
+        grid-area: center;
+        color: var(--verylightgray);
+        padding: 30px;
+        font-size: 15px;
+        text-align: left;
+        
+    }
+
+    .box-right {
+        background-color: var(--verydarkcyan);
+        grid-area: right;
+        color: var(--verylightgray);
+        padding: 30px;
+        font-size: 15px;
+        text-align: left;
+        
+    }
+
+    h1 {
+        color: var(--verylightgray);
+        font-family:'Big Shoulders Display'; 
+        /* font-weight: 400; */
+    }
+
+    p {
+        font-size: small;
+        width: 85%;
+        color: var(--transparentwhite);
+        font-family:'Lexend Deca';
+        font-weight: 700;
+    }
+
+    button{
+        border: none;
+        align-items: center;
+        padding: 10px ;
+        text-align: center;
+        margin-top: 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        width: 75%;
+        border-radius: 20px;
+        font-family:'Lexend Deca';
+
+    }
+
+    .button1{
+        
+        background-color: var(--verylightgray) ;
+        color:var(--brightorange);
+     
+    }
+
+    .button2{
+
+        background-color: var(--verylightgray) ;
+        color:var(--darkcyan);
+      
+    }
+
+    .button3{
+        border: none;
+        background-color: var(--verylightgray) ;
+        color:var(--verydarkcyan);
+        
+    }

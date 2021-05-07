@@ -1,0 +1,28 @@
+@media screen and (max-width:600px){
+
+.container{
+    width: 375px;
+    height: 185vh;
+    display:block;
+    
+}
+
+
+#grid-container{
+    
+    grid-template: 
+    "left" 350px
+    "center" 350px
+    "right"  350px  
+    / [row-start] 3fr   [row-end]  3fr
+        ; 
+
+    width: 100vw;   
+    height: 35vh;
+    margin-left: 40px;
+    }
+    
+  
+}
+
+
