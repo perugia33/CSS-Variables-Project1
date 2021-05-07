@@ -20,7 +20,8 @@
 }
 
 #grid-container { 
-    width: 60vw;   
+    width: 60vw; 
+  
     height: 45vh;
     margin-top: 30px;
     padding: 10px;
@@ -56,9 +57,10 @@
         background-color: var(--verydarkcyan);
         grid-area: right;
         color: var(--verylightgray);
-        padding: 30px;
+        padding: 20px;
         font-size: 15px;
         text-align: left;
+        
         
     }
 
@@ -95,6 +97,7 @@
         
         background-color: var(--verylightgray) ;
         color:var(--brightorange);
+        margin-top: 40px;
      
     }
 
@@ -102,11 +105,13 @@
 
         background-color: var(--verylightgray) ;
         color:var(--darkcyan);
+        margin-top: 30px;
+        
       
     }
 
     .button3{
-        border: none;
+        margin-top: 35px;
         background-color: var(--verylightgray) ;
         color:var(--verydarkcyan);
         

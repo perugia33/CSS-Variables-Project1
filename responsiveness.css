@@ -17,8 +17,8 @@
     / [row-start] 1fr   [row-end]  1fr
         ; 
 
-    width: 150vw;   
-    height: 35vh;
+    width: 155vw;   
+    height: 40vh;
     margin-left: 40px;
     }
     
@@ -26,25 +26,25 @@
 }
 
 button{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 7px;
 }
 
 .box-left {
     font-size: 12px;
-    padding: 20px;
+    padding: 15px;
       
 }
 
 .box-center {
     font-size: 12px;
-    padding: 20px;
+    padding: 15px;
     
 }
 
 .box-right {
     font-size: 12px;
-    padding: 20px;
+    padding: 15 px;
     
 }
 
