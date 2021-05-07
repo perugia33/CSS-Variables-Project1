@@ -11,18 +11,45 @@
 #grid-container{
     
     grid-template: 
-    "left" 350px
-    "center" 350px
-    "right"  350px  
-    / [row-start] 3fr   [row-end]  3fr
+    "left" 250px
+    "center" 250px
+    "right"  250px  
+    / [row-start] 1fr   [row-end]  1fr
         ; 
 
-    width: 100vw;   
+    width: 150vw;   
     height: 35vh;
     margin-left: 40px;
     }
     
   
+}
+
+button{
+    margin-bottom: 20px;
+    padding: 7px;
+}
+
+.box-left {
+    font-size: 12px;
+    padding: 20px;
+      
+}
+
+.box-center {
+    font-size: 12px;
+    padding: 20px;
+    
+}
+
+.box-right {
+    font-size: 12px;
+    padding: 20px;
+    
+}
+
+p {
+    font-size: x-small;
 }
 
 
